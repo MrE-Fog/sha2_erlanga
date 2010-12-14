@@ -5,4 +5,4 @@
 @reference <a href="http://andrewtj.github.com/sha2_erlang/">Documentation</a>
 @reference <a href="http://github.com/andrewtj/sha2_erlang/">Source Code Repository</a>
 @doc
-<p>Erlang wrapper for OpenSSL's SHA224, SHA256, SHA384 and SHA512 digest and HMAC functions.</p>
+<p>Erlang NIF wrappers around OpenSSL's SHA224, SHA256, SHA384 and SHA512 digest and HMAC functions.</p>
