@@ -18,8 +18,8 @@ clean:
 gh-pages: test doc
 	@echo "Building gh-pages for ${VERSION} in ${TMPDIR} from branch ${BRANCH}. Branch dirty: ${STASH}."
 	sed 's/{{VERSION}}/${VERSION}/g' priv/index.html > ${TMPDIR}/index.html
-	rsync -a --remove-source-files doc ${TMPDIR}/doc
-	rsync -a --remove-source-files .eunit ${TMPDIR}/coverage
+	rsync -a --remove-source-files doc/ ${TMPDIR}/doc
+	rsync -a --remove-source-files .eunit/ ${TMPDIR}/coverage
 	@./rebar clean
 	(${STASH} && git stash save) || true
 	git checkout gh-pages
