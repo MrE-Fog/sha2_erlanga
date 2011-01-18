@@ -1,7 +1,7 @@
 {application, sha2,
  [
   {description, "Erlang wrapper for OpenSSL's SHA224, SHA256, SHA384 and SHA512 digest and HMAC functions."},
-  {vsn, "0.1.0"},
+  {vsn, "0.2.0"},
   {registered, []},
   {applications, [kernel, stdlib]},
   {mod, {[]}},
